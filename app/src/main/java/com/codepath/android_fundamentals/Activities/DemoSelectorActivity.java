@@ -1,13 +1,14 @@
 package com.codepath.android_fundamentals.Activities;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.codepath.android_fundamentals.Adapters.DemoSelectorAdapter;
-import com.codepath.android_fundamentals.R;
 import com.codepath.android_fundamentals.Models.Topic;
+import com.codepath.android_fundamentals.R;
 
 import java.util.ArrayList;
 

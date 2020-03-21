@@ -2,14 +2,15 @@ package com.codepath.android_fundamentals.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.codepath.android_fundamentals.R;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.codepath.android_fundamentals.Models.Topic;
+import com.codepath.android_fundamentals.R;
 
 import java.util.List;
 
